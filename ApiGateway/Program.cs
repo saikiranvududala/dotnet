@@ -3,6 +3,7 @@ using Yarp.ReverseProxy.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
+//changes made
 // ---- LOCAL DEV TARGETS ----
 // If you're running services locally via `dotnet run`, use localhost ports:
 var catalogAddress = "http://localhost:5250"; // change to 5000 if you pinned Catalog there
